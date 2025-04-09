@@ -1,0 +1,78 @@
+/* Alap stílusok */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fef6e4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+  }
+  
+  h1 {
+    color: #d17c23;
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: circle;
+    color: #444;
+    font-size: 18px;
+  }
+  
+  a {
+    color: #d17c23;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #ff914d;
+    text-decoration: underline;
+  }
+  
+  /* Kép stílus */
+  img {
+    max-width: 200px;
+    border-radius: 8px;
+  }
+  
+  /* Kétoszlopos elrendezés */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .left-column {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .right-column {
+    flex: 1;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Táblázat stílus */
+  .movies-section {
+    margin-top: 40px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid #d17c23;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #ffe8cc;
+    color: #d17c23;
+  }
+  
